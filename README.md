@@ -16,26 +16,24 @@ Aplicación móvil nativa para Android desarrollada en **Kotlin** con **Jetpack 
 
 ```mermaid
 flowchart TD
-    subgraph UI_Layer [UI Layer - Jetpack Compose]
-        Screen[ExpenseScreen / UI Components]
-        Theme[Material 3 Theme & Color System]
-        ViewModel[ExpenseViewModel / StateFlow]
+    subgraph UI_Layer ["UI Layer - Jetpack Compose"]
+        Screen["ExpenseScreen / UI Components"]
+        Theme["Material 3 Theme & Color System"]
+        ViewModel["ExpenseViewModel / StateFlow"]
     end
 
-    subgraph Service_Layer [Background Services]
-        NotifService[ExpenseNotificationListenerService
-(Intercepta notificaciones de apps bancarias)]
+    subgraph Service_Layer ["Background Services"]
+        NotifService["ExpenseNotificationListenerService (Intercepta notificaciones bancarias)"]
     end
 
-    subgraph AI_Engine [Smart AI Engine]
-        GeminiClient[GeminiApi / LocalLlmManager
-(NLP & Extracción de montos/comercios)]
+    subgraph AI_Engine ["Smart AI Engine"]
+        GeminiClient["GeminiApi / LocalLlmManager (NLP & Extracción de montos/comercios)"]
     end
 
-    subgraph Domain_Data_Layer [Data & Repository Layer]
-        Repository[ExpenseRepository]
-        RoomDB[(Room Database / SQLite Offline)]
-        FirebaseSync[(Firebase Cloud Firestore)]
+    subgraph Domain_Data_Layer ["Data & Repository Layer"]
+        Repository["ExpenseRepository"]
+        RoomDB[("Room Database / SQLite Offline")]
+        FirebaseSync[("Firebase Cloud Firestore")]
     end
 
     Screen --> ViewModel
@@ -101,8 +99,8 @@ app/src/main/
 
 ### 1. Clonar el Repositorio
 ```bash
-git clone https://github.com/tu-usuario/02-financetracker-android-kotlin.git
-cd 02-financetracker-android-kotlin
+git clone https://github.com/Angelblazel/financetracker-android-kotlin.git
+cd financetracker-android-kotlin
 ```
 
 ### 2. Configurar Clave de API de Gemini
@@ -122,5 +120,5 @@ GEMINI_API_KEY="AIzaSy..."
 ## Autor
 
 - **Ángel César Obregón Blaz** — *Ingeniería de Sistemas (UNMSM)*
-- **GitHub:** [AngelObregon](https://github.com/)
+- **GitHub:** [Angelblazel](https://github.com/Angelblazel)
 - **LinkedIn:** [Ángel Obregón](https://linkedin.com/in/)
