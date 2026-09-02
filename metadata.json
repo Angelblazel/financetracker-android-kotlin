@@ -1,0 +1,6 @@
+{
+  "name": "FinanceTracker",
+  "description": "Registers and tracks expenses extracted from notifications using Gemini AI, saved in a local Room database.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
