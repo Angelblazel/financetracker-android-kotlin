@@ -114,11 +114,3 @@ GEMINI_API_KEY="AIzaSy..."
 2. Permite que Gradle sincronice las dependencias (`Sync Project with Gradle Files`).
 3. Selecciona tu emulador o dispositivo físico y presiona **Run (`Shift + F10`)**.
 4. Concede el permiso de acceso a notificaciones en los ajustes de Android para habilitar la auto-captura inteligente de gastos.
-
----
-
-## Autor
-
-- **Ángel César Obregón Blaz** — *Ingeniería de Sistemas (UNMSM)*
-- **GitHub:** [Angelblazel](https://github.com/Angelblazel)
-- **LinkedIn:** [Ángel Obregón](https://linkedin.com/in/)
